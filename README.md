@@ -1,153 +1,138 @@
-Campus Energy-Use Dashboard
+[cleaned_energy_data.csv](https://github.com/user-attachments/files/23920666/cleaned_energy_data.csv)<img width="1200" height="1400" alt="dashboard" src="https://github.com/user-attachments/assets/5e18d86e-f963-4954-afc4-fa9c091e35c5" />
+
+[Uploadingbuilding,timestamp,kwh
+Admin,2024-01-01 00:00:00,20.0
+Library,2024-01-01 00:00:00,12.0
+Hostel,2024-01-01 00:00:00,8.0
+Admin,2024-01-01 01:00:00,21.0
+Library,2024-01-01 01:00:00,12.5
+Hostel,2024-01-01 01:00:00,8.5
+Hostel,2024-01-01 02:00:00,9.0
+Library,2024-01-01 02:00:00,13.0
+Admin,2024-01-01 02:00:00,22.0
+Admin,2024-01-01 03:00:00,23.0
+Hostel,2024-01-01 03:00:00,9.5
+Library,2024-01-01 03:00:00,13.5
+Library,2024-01-01 04:00:00,14.0
+Hostel,2024-01-01 04:00:00,10.0
+Admin,2024-01-01 04:00:00,24.0
+Hostel,2024-01-01 05:00:00,11.0
+Admin,2024-01-01 05:00:00,25.0
+Library,2024-01-01 05:00:00,14.5
+Library,2024-01-01 06:00:00,15.0
+Admin,2024-01-01 06:00:00,26.0
+Hostel,2024-01-01 06:00:00,12.0
+Admin,2024-01-01 07:00:00,28.0
+Hostel,2024-01-01 07:00:00,14.0
+Library,2024-01-01 07:00:00,16.0
+Library,2024-01-01 08:00:00,17.0
+Admin,2024-01-01 08:00:00,30.0
+Hostel,2024-01-01 08:00:00,16.0
+Library,2024-01-01 09:00:00,18.0
+Hostel,2024-01-01 09:00:00,18.0
+Admin,2024-01-01 09:00:00,32.0
+Library,2024-01-01 10:00:00,19.0
+Admin,2024-01-01 10:00:00,34.0
+Hostel,2024-01-01 10:00:00,20.0
+Admin,2024-01-01 11:00:00,35.0
+Hostel,2024-01-01 11:00:00,21.0
+Library,2024-01-01 11:00:00,20.0
+Admin,2024-01-01 12:00:00,36.0
+Hostel,2024-01-01 12:00:00,22.0
+Library,2024-01-01 12:00:00,21.0
+Admin,2024-01-01 13:00:00,37.0
+Hostel,2024-01-01 13:00:00,23.0
+Library,2024-01-01 13:00:00,22.0
+Hostel,2024-01-01 14:00:00,24.0
+Library,2024-01-01 14:00:00,23.0
+Admin,2024-01-01 14:00:00,38.0
+Hostel,2024-01-01 15:00:00,25.0
+Library,2024-01-01 15:00:00,24.0
+Admin,2024-01-01 15:00:00,39.0
+Hostel,2024-01-01 16:00:00,24.0
+Library,2024-01-01 16:00:00,23.0
+Admin,2024-01-01 16:00:00,38.0
+Admin,2024-01-01 17:00:00,36.0
+Hostel,2024-01-01 17:00:00,22.0
+Library,2024-01-01 17:00:00,22.0
+Admin,2024-01-01 18:00:00,34.0
+Hostel,2024-01-01 18:00:00,20.0
+Library,2024-01-01 18:00:00,21.0
+Admin,2024-01-01 19:00:00,32.0
+Library,2024-01-01 19:00:00,20.0
+Admin,2024-01-01 20:00:00,30.0
+Library,2024-01-01 20:00:00,19.0
+Admin,2024-01-01 21:00:00,28.0
+Library,2024-01-01 21:00:00,18.0
+Admin,2024-01-01 22:00:00,26.0
+Library,2024-01-01 22:00:00,17.0
+Library,2024-01-01 23:00:00,16.0
+Admin,2024-01-01 23:00:00,24.0
+Admin,2024-01-02 00:00:00,20.0
+Library,2024-01-02 00:00:00,12.0
+Admin,2024-01-02 01:00:00,21.0
+Library,2024-01-02 01:00:00,12.5
+Admin,2024-01-02 02:00:00,22.0
+Library,2024-01-02 02:00:00,13.0
+Admin,2024-01-02 03:00:00,23.0
+Library,2024-01-02 03:00:00,13.5
+Admin,2024-01-02 04:00:00,24.0
+Library,2024-01-02 04:00:00,14.0
+Library,2024-01-02 05:00:00,14.5
+Admin,2024-01-02 05:00:00,25.0
+Admin,2024-01-02 06:00:00,26.0
+Library,2024-01-02 06:00:00,15.0
+Library,2024-01-02 07:00:00,16.0
+Admin,2024-01-02 07:00:00,28.0
+Library,2024-01-02 08:00:00,17.0
+Admin,2024-01-02 08:00:00,30.0
+Admin,2024-01-02 09:00:00,32.0
+Library,2024-01-02 09:00:00,18.0
+Library,2024-01-02 10:00:00,19.0
+Admin,2024-01-02 10:00:00,34.0
+Library,2024-01-02 11:00:00,20.0
+Admin,2024-01-02 11:00:00,35.0
+Library,2024-01-02 12:00:00,21.0
+Admin,2024-01-02 12:00:00,36.0
+Library,2024-01-02 13:00:00,22.0
+Admin,2024-01-02 13:00:00,37.0
+Admin,2024-01-02 14:00:00,38.0
+Library,2024-01-02 14:00:00,23.0
+Library,2024-01-02 15:00:00,24.0
+Admin,2024-01-02 15:00:00,39.0
+Library,2024-01-02 16:00:00,23.0
+Admin,2024-01-02 16:00:00,38.0
+Admin,2024-01-02 17:00:00,36.0
+Library,2024-01-02 17:00:00,22.0
+Library,2024-01-02 18:00:00,21.0
+Admin,2024-01-02 18:00:00,34.0
+Admin,2024-01-02 19:00:00,32.0
+Library,2024-01-02 19:00:00,20.0
+Admin,2024-01-02 20:00:00,30.0
+Library,2024-01-02 20:00:00,19.0
+Admin,2024-01-02 21:00:00,28.0
+Library,2024-01-02 21:00:00,18.0
+Library,2024-01-02 22:00:00,17.0
+Admin,2024-01-02 22:00:00,26.0
+Admin,2024-01-02 23:00:00,24.0
+Library,2024-01-02 23:00:00,16.0
+cleaned_energy_data.csv…]()
+
+[building_summary.csv](https://github.com/user-attachments/files/23920667/building_summary.csv)
+building,total_kwh,peak_ts,peak_kwh
+Admin,1436.0,2024-01-01 15:00:00,39.0
+Library,861.0,2024-01-01 15:00:00,24.0
+Hostel,317.0,2024-01-01 15:00:00,25.0
+
+[summary.txt](https://github.com/user-attachments/files/23920672/summary.txt)
+Campus Energy Summary
+=====================
+
+Total campus consumption (kWh): 2614.00
+Highest-consuming building: Admin (1436.00 kWh)
+Peak single reading: 39.00 kWh at 2024-01-01 15:00:00
+
+Notes:
+- Data aggregated from multiple building CSV files
+- Summary includes daily and weekly aggregations
 
-Capstone Project – Programming for Problem Solving using Python
-
-Author: Manthan Sharma
-
-Roll No.: 2501410037
-
-1. Project Overview
-
-This capstone project focuses on analyzing electricity consumption across multiple campus buildings. The goal is to build a complete end-to-end pipeline that reads raw meter data, cleans and merges it, performs time-based aggregations, uses OOP to structure the system, generates visual insights, and finally exports a summary for administrative use.
-
-The final output includes:
-
-A cleaned combined dataset
-
-Building-wise summary statistics
-
-Daily and weekly consumption trends
-
-A multi-chart dashboard (PNG)
-
-A short written executive summary (TXT)
-
-This assignment demonstrates practical skills in data ingestion, preprocessing, time-series analysis, visualization, and Python OOP.
-
-3. Dataset Description
-
-The dataset consists of hourly energy consumption records for three campus buildings:
-
-Library
-
-Admin
-
-Hostel
-
-Each CSV file contains:
-
-timestamp, kwh, building
-
-
-Where:
-
-timestamp = date & hour of the reading
-
-kwh = energy consumption for that hour
-
-building = building name
-
-These files are placed in the /data folder and automatically detected by the script.
-
-4. Features Implemented
-4.1 Data Ingestion & Validation
-
-Automatically loops through all CSV files in /data
-
-Handles missing or invalid rows
-
-Auto-detects column names (timestamp, kwh, building)
-
-Adds metadata (building name) when needed
-
-Merges all buildings into one master DataFrame
-
-4.2 Data Cleaning
-
-Removes corrupt entries
-
-Converts timestamp to datetime format
-
-Ensures kWh values are numeric
-
-Sorts data chronologically
-
-Standardizes column names
-
-4.3 Aggregation Logic
-
-Using Pandas time-series functions:
-
-Daily totals (per building)
-
-Weekly totals (per building)
-
-Building summary:
-
-total kWh
-
-mean consumption
-
-min/max consumption
-
-peak-hour usage
-
-These results are used for the dashboard and report.
-
-4.4 Object-Oriented Structure
-
-Three core classes:
-
-MeterReading
-
-Represents a single meter record (timestamp + kWh).
-
-Building
-
-Stores all readings for a building and can:
-
-add readings
-
-compute totals
-
-compute daily aggregations
-
-detect peak hour
-
-BuildingManager
-
-Manages multiple buildings together.
-
-This satisfies the capstone OOP requirement and keeps code organized.
-
-4.5 Visualization Dashboard
-
-Generated using Matplotlib and saved as dashboard.png.
-
-The dashboard includes:
-
-Daily consumption trend (line chart for each building)
-
-Average weekly usage per building (bar chart)
-
-Peak consumption per building (scatter plot)
-
-These three charts appear in a single figure.
-
-4.6 Exported Files
-
-The script saves:
-
-cleaned_energy_data.csv – combined processed dataset
-
-building_summary.csv – aggregated stats per building
-
-summary.txt – short executive summary including:
-
-total campus consumption
-
-highest-consuming building
-
-peak load time
-
-notes on trends
